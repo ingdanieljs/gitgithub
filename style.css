@@ -8,7 +8,26 @@ html {
   font-size: 62.5%;
 }
 
-h1 {
-  font-size: 2rem;
-  color: thistle;
+.main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #d8ebe4;
+}
+
+.container {
+  border: 0.1rem solid #282846;
+  padding: 2rem;
+  background-color: #007580;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #282846;
+}
+
+.container p {
+  font-size: 1.6rem;
+  color: #282846;
 }
