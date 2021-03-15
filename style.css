@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
 }
+
 .head {
   height: 5rem;
   background-color: #007580;
@@ -20,7 +21,7 @@ html {
 }
 
 .main {
-  height: 50vh;
+  height: calc(100vh - 5rem);
   display: grid;
   place-items: center;
   background-color: #d8ebe4;
@@ -30,6 +31,7 @@ html {
   border: 0.1rem solid #282846;
   padding: 2rem;
   background-color: #007580;
+  width: 80vw;
 }
 
 .container h1 {
