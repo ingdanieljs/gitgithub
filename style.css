@@ -7,9 +7,20 @@
 html {
   font-size: 62.5%;
 }
+.head {
+  height: 5rem;
+  background-color: #007580;
+  display: grid;
+  place-items: center;
+}
+
+.head p {
+  color: white;
+  font-size: 3rem;
+}
 
 .main {
-  height: 100vh;
+  height: 50vh;
   display: grid;
   place-items: center;
   background-color: #d8ebe4;
