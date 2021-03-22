@@ -44,3 +44,15 @@ html {
   font-size: 1.6rem;
   color: #fff;
 }
+
+.food {
+  height: 5rem;
+  background-color: #007580;
+  display: grid;
+  place-items: center;
+}
+
+.food p {
+  color: white;
+  font-size: 1.5rem;
+}
