@@ -27,7 +27,7 @@ html {
 }
 
 .main {
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 15rem);
   display: grid;
   place-items: center;
   background-color: #d8ebe4;
